@@ -37,13 +37,12 @@ class ViewController: UIViewController {
             })
         }
         
-        
         setupTableView()
         setupSearchBar()
         
         
-//        myRefreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
-//        table.refreshControl = myRefreshControl
+        //        myRefreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
+        //        table.refreshControl = myRefreshControl
         
     }
     
@@ -82,7 +81,6 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
         guard let new = news?.articles[indexPath.row] else { return cell }
         cell.configure(with: new)
-        cell.fillFavoriteButton.isHidden = true
         
         return cell
     }
@@ -91,7 +89,25 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         return 250
     }
     
+    func addToFavorites(rowIndexPathAt indexPath: IndexPath) -> UIContextualAction {
+        let action = UIContextualAction(style: .normal, title: "Add to favorites") { (_, _, _) in
+            
+        }
+        return action
+    }
+    
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let _ = self.addToFavorites(rowIndexPathAt: indexPath)
+        let swipe = UISwipeActionsConfiguration(actions: [addToFavorites(rowIndexPathAt: indexPath)])
+        
+        
+        
+        return swipe
+    }
+    
 }
+
+
 
 extension ViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
@@ -110,5 +126,5 @@ extension ViewController: UISearchBarDelegate {
         
     }
 }
-    
+
 
