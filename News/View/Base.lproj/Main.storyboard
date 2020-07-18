@@ -153,11 +153,8 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="258"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o9f-74-RZT">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="258"/>
-                                        </imageView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="FFq-0K-KRY">
-                                            <rect key="frame" x="5" y="145" width="404" height="102"/>
+                                            <rect key="frame" x="5" y="11" width="404" height="102"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A4x-Db-KGi">
                                                     <rect key="frame" x="0.0" y="0.0" width="404" height="50"/>
@@ -177,18 +174,14 @@
                                         </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="o9f-74-RZT" firstAttribute="top" secondItem="5kS-cr-IcG" secondAttribute="top" id="COA-tf-g63"/>
-                                        <constraint firstAttribute="trailing" secondItem="o9f-74-RZT" secondAttribute="trailing" id="KO3-Uu-eB4"/>
-                                        <constraint firstItem="FFq-0K-KRY" firstAttribute="top" secondItem="5kS-cr-IcG" secondAttribute="top" constant="145" id="Qmr-zq-KG4"/>
-                                        <constraint firstAttribute="bottom" secondItem="o9f-74-RZT" secondAttribute="bottom" id="WnH-Nv-3gA"/>
-                                        <constraint firstItem="o9f-74-RZT" firstAttribute="leading" secondItem="5kS-cr-IcG" secondAttribute="leading" id="kCq-mM-vO6"/>
+                                        <constraint firstItem="FFq-0K-KRY" firstAttribute="top" secondItem="5kS-cr-IcG" secondAttribute="top" constant="11" id="TCg-Dr-1gQ"/>
                                         <constraint firstAttribute="trailing" secondItem="FFq-0K-KRY" secondAttribute="trailing" constant="5" id="ljk-fx-BOD"/>
                                         <constraint firstItem="FFq-0K-KRY" firstAttribute="leading" secondItem="5kS-cr-IcG" secondAttribute="leading" constant="5" id="xM5-T8-Cqs"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.83967167139053345" green="0.63943386077880859" blue="0.63454818725585938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="favoritesDescription" destination="fTR-a0-65I" id="ZeN-Nz-4wl"/>
-                                    <outlet property="favoritesImage" destination="o9f-74-RZT" id="dyE-zb-c3z"/>
                                     <outlet property="favoritesTitle" destination="A4x-Db-KGi" id="VbA-zG-010"/>
                                 </connections>
                             </tableViewCell>
