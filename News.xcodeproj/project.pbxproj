@@ -18,9 +18,9 @@
 		FA0BC80124BB41D3002A4D55 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BC80024BB41D3002A4D55 /* NetworkService.swift */; };
 		FA0BC80B24BC6506002A4D55 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BC80A24BC6506002A4D55 /* NewsCell.swift */; };
 		FA0BC80F24BED8A1002A4D55 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BC80E24BED8A1002A4D55 /* FavoritesViewController.swift */; };
-		FA0BC81124BED96A002A4D55 /* FavoritesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BC81024BED96A002A4D55 /* FavoritesCell.swift */; };
 		FA0BC81824BF23A7002A4D55 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BC81724BF23A7002A4D55 /* ImageView.swift */; };
 		FA1412E324C1950F00CDCE35 /* FavoritesNewsDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1412E224C1950F00CDCE35 /* FavoritesNewsDB.swift */; };
+		FAFEF70624C30D44008CAA8A /* FavoritesCelll.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFEF70524C30D44008CAA8A /* FavoritesCelll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,9 +39,9 @@
 		FA0BC80024BB41D3002A4D55 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		FA0BC80A24BC6506002A4D55 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		FA0BC80E24BED8A1002A4D55 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
-		FA0BC81024BED96A002A4D55 /* FavoritesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCell.swift; sourceTree = "<group>"; };
 		FA0BC81724BF23A7002A4D55 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		FA1412E224C1950F00CDCE35 /* FavoritesNewsDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesNewsDB.swift; sourceTree = "<group>"; };
+		FAFEF70524C30D44008CAA8A /* FavoritesCelll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCelll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 			children = (
 				FA0BC7FE24BB35F9002A4D55 /* News.swift */,
 				FA0BC80A24BC6506002A4D55 /* NewsCell.swift */,
-				FA0BC81024BED96A002A4D55 /* FavoritesCell.swift */,
+				FAFEF70524C30D44008CAA8A /* FavoritesCelll.swift */,
 				FA0BC81724BF23A7002A4D55 /* ImageView.swift */,
 				FA1412E424C1951400CDCE35 /* Realm DB */,
 				FA0BC80324BB43E3002A4D55 /* Networking */,
@@ -276,11 +276,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0BC80124BB41D3002A4D55 /* NetworkService.swift in Sources */,
-				FA0BC81124BED96A002A4D55 /* FavoritesCell.swift in Sources */,
 				FA0BC7FF24BB35F9002A4D55 /* News.swift in Sources */,
 				FA0BC80F24BED8A1002A4D55 /* FavoritesViewController.swift in Sources */,
 				FA0BC7EF24BB1D3B002A4D55 /* ViewController.swift in Sources */,
 				FA0BC7EB24BB1D3B002A4D55 /* AppDelegate.swift in Sources */,
+				FAFEF70624C30D44008CAA8A /* FavoritesCelll.swift in Sources */,
 				FA0BC81824BF23A7002A4D55 /* ImageView.swift in Sources */,
 				FA0BC80B24BC6506002A4D55 /* NewsCell.swift in Sources */,
 				FA1412E324C1950F00CDCE35 /* FavoritesNewsDB.swift in Sources */,
